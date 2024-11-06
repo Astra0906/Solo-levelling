@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@keyframes glitter {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 200% 50%;
+    }
+  }
+  
+  .glitter-fill {
+    background:linear-gradient(
+        120deg,
+        rgba(28, 34, 86, 0.8),
+        rgba(55, 12, 92, 0.7),
+        rgba(142, 45, 226, 0.6),
+        rgba(48, 48, 107, 0.5)
+      );
+    background-size: 200% 200%;
+    animation: glitter 2s linear infinite;
+  }
+  

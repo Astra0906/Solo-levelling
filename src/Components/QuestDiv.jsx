@@ -3,7 +3,6 @@ import './QuestDiv.css'
 import Task from '../Subcomponents/task'
 import { PiWarningOctagonBold } from "react-icons/pi";
 import GlowBtn from '../Subcomponents/GlowBtn';
-import Streak from '../Subcomponents/IconContsiner';
 const QuestDiv = () => {
     return (
         <div
@@ -64,15 +63,6 @@ const QuestDiv = () => {
           <div className='flex justify-center m-8'>
              <GlowBtn name='Add Quest' />
           </div>
-          <div className='relative left-1/3'>
-            <Streak>
-            <div>1</div>
-            <div>STREAK</div>
-            </Streak>
-           
-          </div>
-           
-
 
         </div>
     )

@@ -1,6 +1,7 @@
 import React from 'react'
 import { TfiCheckBox } from "react-icons/tfi";
 import { SiCodesandbox } from "react-icons/si";
+import CoolCheckbox from './Checkbox';
 
 const Task = () => {
     return (
@@ -36,7 +37,7 @@ const Task = () => {
               
                     <TfiCheckBox className='text-white font-bold'
                     />
-                    <SiCodesandbox className='text-white ' />
+                 <CoolCheckbox/>
                 </div>
                 </div>
         </>

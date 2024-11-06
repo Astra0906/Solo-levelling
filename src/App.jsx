@@ -6,15 +6,21 @@ import Header from './Components/Header'
 import BgDrop from './Components/bgDrop'
 import QuestDiv from './Components/QuestDiv'
 
+
+import FuturisticCard from './Subcomponents/FuturisticCard'
+import StatusCard from './Components/StatCard'
+import Profile from './Components/Profile'
+
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
     <BgDrop>
-      <div className='h-[100vh]'>
+      <div className='min-h-[100vh]'>
       <Header/>
-      <QuestDiv/>
+    <Profile/>
+     
       </div>
     
     </BgDrop>
